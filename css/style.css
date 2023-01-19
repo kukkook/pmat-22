@@ -79,7 +79,7 @@ html {
     transform: translateY(-10px);
 }
 
-.site-main .site-banner .site-title h1{
+.site-main .site-banner .content-title h1{
     font-size:25px ;
     font-weight: 500;
     margin-bottom: 2%;
@@ -156,15 +156,8 @@ html {
 
 
 /* Start service Area */ 
-.site-main .service-area{
-    padding: 7rem 2rem;
-    margin-top: 5%;
-}
 
 
-.site-main .service-area .service-title{
-    padding: 0 3rem;
-}
 
 .site-main .service-area .service-title h1{
     font-size: 25px;
@@ -174,9 +167,8 @@ html {
 
 .site-main > .service-area .service{
     
-    padding: 2rem 0;
     width: auto;
-    margin: 5rem .5rem;
+    margin: 3rem .5rem;
     transition: box-shadow .7s ease;
     
     background-color: rgb(51, 30, 119);
@@ -272,6 +264,13 @@ html {
 
 .site-main .subscribe-us-area h4{
     color: rgb(33, 31, 31);
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.site-main .subscribe-us-area h4>a{
+    color: var(--primary-color);
     font-size: 22px;
     font-weight: 500;
     margin-top: 5%;
