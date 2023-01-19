@@ -62,7 +62,10 @@ html {
 /* end navigation */ 
 
 /* Banner Area */ 
-
+.site-main .site-banner .carousall-inner >img{
+    width: 800px;
+    height: 600px;
+}
 .site-main .site-banner {
     background: url('') no-repeat 0% 35%;
     
