@@ -336,8 +336,6 @@ html {
 }
 
 
-
-
 /* End work Area */ 
 /*detail area*/
 .site-main .detail-area .detail .detail-img > img{
@@ -349,6 +347,10 @@ html {
     font-weight: 500;
     color:white;
     background-size: inherit;
+    background-color: var(--primary-color);
+    border:solid 2px var(--primary-color);
+    border-radius: 10px;
+    width: inherit;
 }
 
 .site-main .detail-area .detail >  a{
@@ -358,13 +360,16 @@ html {
 
 }
 
+
 .site-main .detail-area .detail >  p{
     font-size: 15px;
     font-weight: 500;
     padding-left: 2%;
 }
 
-
+.site-main .detail-area .detail .green-text > p{
+    color:rgb(8, 175, 94);
+}
 
 /*end detail*/
 /* Subscribe me */ 
