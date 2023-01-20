@@ -288,12 +288,17 @@ html {
 }
 /*work Area */ 
 
-
+.site-main .work-area .detail .btn{
+    justify-content: center;
+  align-items:flex-end;
+  display: flex;
+}
 
 .site-main .work-area .work-title h1{
     font-size: 30px;
     font-weight: 500;
     color:white;
+    
 }
 
 .site-main .work-area h5{
@@ -343,6 +348,7 @@ html {
     font-size: 30px;
     font-weight: 500;
     color:white;
+    background-size: inherit;
 }
 
 .site-main .detail-area .detail >  a{
