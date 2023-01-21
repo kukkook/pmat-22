@@ -118,6 +118,11 @@ html {
     padding: 8rem 5rem;
 }
 
+.site-main .about-area .site-title h1{
+    font-size:25px ;
+    font-weight: 500;
+    color:white;
+}
 
 .site-main .about-area .site-about h4{
     
