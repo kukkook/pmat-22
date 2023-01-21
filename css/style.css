@@ -326,6 +326,16 @@ html {
 
 }
 
+.site-main .work-area .list-group .active{
+    background-color: rgb(42, 41, 151);
+    color:white;
+    border-color: rgb(42, 41, 151);
+}
+.site-main .work-area .list-group-item:hover{
+    background-color: rgb(42, 41, 151);
+    color:white;
+}
+
 .site-main .work-area .work{
     width: 250px;
     height: 250px;
