@@ -144,7 +144,7 @@ html {
 }
 .site-main .about-area .member-list .member-img >img{
     
-    width: 150px;
+    width: 300px;
     height: inherit;
 }
 
@@ -403,25 +403,29 @@ html {
 }
 .site-main .subscribe-us-area h4>a{
     color: var(--primary-color);
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 500;
     margin-top: 5%;
     margin-left: 3%;
 }
 
 .site-main .subscribe-us-area .contact-map{
-    margin-top: 5%;
+    margin-top:10%;
+    margin-right: 10%;
 }
-.site-main .subscribe-us-area li{
+
+.site-main .subscribe-us-area h3{
+    
     color: rgb(33, 31, 31);
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     margin-left: 5%;
+    margin-top: 40px;
 }
 
 .site-main .subscribe-us-area a{
     color: rgb(94, 91, 91);
-    font-size: 15px;
+    font-size: 17.5px;
     font-weight: 500;
     margin-left: 5%;
 }
@@ -436,6 +440,14 @@ html {
 .site-main .subscribe-us-area .contact .banner-image2 >img{
     
     width: 600px;
+    height: inherit;
+}
+
+.site-main .subscribe-us-area .contact .banner-image1 >img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    width: 400px;
     height: inherit;
 }
 
@@ -475,11 +487,47 @@ html {
 
 /* Footer Area */ 
 
-footer.footer-area{
+/* footer.footer-area{
+    align-items: center;
     background: url(../img/footer-bg.png) no-repeat;
-    height: 480px;
+    height: 300px;
+} */
+footer .footer-area .div-1 {
+    margin-top: 100px;
+    background-color: rgb(49, 25, 135);
+    height:200px;
+    width: 5000px;
+}
+footer .footer-area .div-1 a{
+    color:white;
+    height:100px;
+    width:1400px;
+    font-weight: bold;
+    text-align: center;
+}
+footer .footer-area .div-1 p{
+    padding-top:30px;
+    padding-left: 70px;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
 }
 
+footer .footer-area .div-1 h5{
+    padding-left: 70px;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
+}
+
+footer.footer-area .div-1 img{
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 200px;
+    height: inherit;
+}
 footer.footer-area img{
     width: 150px;
     height: inherit;
@@ -489,8 +537,9 @@ footer.footer-area .social h5{
 }
 
 footer.footer-area .social a > i{
+    padding-top: 20px;
     font-size:20px;
-    padding: 2rem;
+    padding: 1rem 1rem 0rem 1rem ;
     color: rgb(203, 192, 192);
 }
 
