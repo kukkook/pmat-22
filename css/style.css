@@ -143,13 +143,17 @@ html {
     
 }
 .site-main .about-area .member-list .member-img >img{
-    
-    width: 300px;
-    height: inherit;
+    /* background-color: aqua; */
+    width: 250px;
+    height:inherit;
 }
-
+.site-main .about-area .member-list .member-img >h4{
+    margin-top: 10px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
 .site-main .about-area .member-list .member-img >h5{
-    margin-top: 2%;
+    /* font-weight: thin; */
+    font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 .site-main .about-area .about-image >img{
     
