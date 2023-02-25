@@ -295,6 +295,22 @@ html {
     filter: brightness(1.1) drop-shadow(1px 8px 50px #b1afaf);
     /*icon*/
 }
+
+.site-main .service-area .member .image-member> img{
+    width: 200px;
+    height: inherit;
+    border-radius: 10px;
+    align-items: center;
+    margin-top:20px;
+}
+/* 
+.site-main .service-area .container-member{
+    width: inherit;
+    height: inherit;
+    background-color: blueviolet;
+} */
+
+
 /*work Area */ 
 
 .site-main .work-area .detail .btn{
@@ -499,7 +515,7 @@ footer .footer-area .div-1 {
     margin-top: 100px;
     background-color: rgb(49, 25, 135);
     height:200px;
-    width: 5000px;
+    /* width: 1400px; */
 }
 footer .footer-area .div-1 a{
     color:white;
@@ -527,7 +543,8 @@ footer .footer-area .div-1 h5{
 
 footer.footer-area .div-1 img{
     margin-top: 20px;
-    margin-left: 200px;
+    /* margin-left: inherit; */
+    align-items: end;
     width: 200px;
     height: inherit;
 }
